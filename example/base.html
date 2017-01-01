@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>html</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="robots" content="nofollow" />
+	<meta name="apple-mobile-web-app-title" content="">
+	<meta name="format-detection" content="telephone=no" />
+    <script src="../lib/flexible.js"></script>
+    <link rel="stylesheet" href="../cyan/CMUI.css">
+</head>
+<body>
+<div class="container padding20">
+	<div class="flex-container" v-for="item in color">
+		<span :class="'badge-'+item" class="margin10 badge">label</span>
+		<span :class="'badge-'+item" class="margin10 badge badge-reverse">label</span>
+		<span :class="'badge-'+item" class="margin10 badge badge-radius">label</span>
+		<span :class="'badge-'+item" class="margin10 badge badge-radius badge-reverse">label</span>
+	</div>
+</div>
+<script src="../lib/vue.js"></script>
+<script src="../data/exampleData.js"></script>
+<script>
+	var vm=new Vue({
+		el:'body',
+		data:exampleData
+	})
+</script>
+</body>
+</html>

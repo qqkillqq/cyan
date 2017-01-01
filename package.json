@@ -1,0 +1,33 @@
+{
+  "name": "cyan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qqkillqq/cyan.git"
+  },
+  "keywords": [
+    "cyan"
+  ],
+  "author": "qqkillqq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qqkillqq/cyan/issues"
+  },
+  "homepage": "https://github.com/qqkillqq/cyan#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.19.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-es2015-parameters": "^6.18.0",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-strict-mode": "^6.18.0",
+    "webpack": "^1.13.3"
+  }
+}
